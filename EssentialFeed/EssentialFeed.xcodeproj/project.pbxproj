@@ -14,6 +14,7 @@
 		EF1BC6222B1FCEB400F83270 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC6212B1FCEB400F83270 /* FeedLoader.swift */; };
 		EF1BC6262B203E6900F83270 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC6252B203E6900F83270 /* RemoteFeedLoader.swift */; };
 		EF1BC6282B2282D000F83270 /* HTTPClientResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC6272B2282D000F83270 /* HTTPClientResult.swift */; };
+		EF1BC62A2B22839B00F83270 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BC6292B22839B00F83270 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		EF1BC6212B1FCEB400F83270 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		EF1BC6252B203E6900F83270 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		EF1BC6272B2282D000F83270 /* HTTPClientResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientResult.swift; sourceTree = "<group>"; };
+		EF1BC6292B22839B00F83270 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				EF1BC6252B203E6900F83270 /* RemoteFeedLoader.swift */,
 				EF1BC6272B2282D000F83270 /* HTTPClientResult.swift */,
+				EF1BC6292B22839B00F83270 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1BC62A2B22839B00F83270 /* FeedItemsMapper.swift in Sources */,
 				EF1BC6222B1FCEB400F83270 /* FeedLoader.swift in Sources */,
 				EF1BC6262B203E6900F83270 /* RemoteFeedLoader.swift in Sources */,
 				EF1BC6202B1FCE0400F83270 /* FeedItem.swift in Sources */,
