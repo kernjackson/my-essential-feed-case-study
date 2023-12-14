@@ -51,6 +51,7 @@
 		EF1BC6272B2282D000F83270 /* HTTPClientResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientResult.swift; sourceTree = "<group>"; usesTabs = 1; };
 		EF1BC6292B22839B00F83270 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; usesTabs = 1; };
 		EF790D222B276D2E009557EB /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; usesTabs = 1; };
+		EF9816FD2B2B80BD00C02FE2 /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		EFD308E92B2A3B11006F4485 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; usesTabs = 1; };
 		EFD308EB2B2A84B0006F4485 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		EFD308EE2B2B6556006F4485 /* EssentialFeed.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeed.xctestplan; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		EF1BC5FD2B1FCD6F00F83270 = {
 			isa = PBXGroup;
 			children = (
+				EF9816FD2B2B80BD00C02FE2 /* CI.xctestplan */,
 				EFD308EE2B2B6556006F4485 /* EssentialFeed.xctestplan */,
 				EF1BC6092B1FCD6F00F83270 /* EssentialFeed */,
 				EF1BC6132B1FCD6F00F83270 /* EssentialFeedTests */,
