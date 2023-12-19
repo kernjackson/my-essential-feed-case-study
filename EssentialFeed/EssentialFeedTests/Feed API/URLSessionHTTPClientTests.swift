@@ -133,7 +133,7 @@ class URLSessionHTTPClientTests: XCTestCase {
 		return Data("any data".utf8)
 	}
 	
-	private func anyNSError() -> Error {
+	private func anyNSError() -> NSError {
 		return NSError(domain: "any error", code: 0)
 	}
 	
