@@ -33,7 +33,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 		})
 	}
 	
-	func test_load_DeliversNoImagesOnEmptyCache() {
+	func test_load_deliversNoImagesOnEmptyCache() {
 		let (sut, store) = makeSUT()
 		
 		expect(sut, toCompleteWithError: .success([])) {
