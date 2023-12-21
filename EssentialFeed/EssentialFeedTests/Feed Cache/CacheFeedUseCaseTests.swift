@@ -37,7 +37,8 @@ class CacheFeedUseCaseTests: XCTestCase {
 		let timestamp = Date()
 		let (sut, store) = makeSUT(currentDate: { timestamp })
 		let items = uniqueItems()
-		sut.save(uniqueItems().models) { _ in }
+		
+		sut.save(items.models) { _ in }
 		store.completeDeletionSuccessfully()
 		
 		XCTAssertEqual(store.receivedMessages, [.deleteCacheFeed, .insert(items.local, timestamp)])
