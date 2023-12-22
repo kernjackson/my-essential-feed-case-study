@@ -95,7 +95,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
 	func test_load_doesNotDeleteCacheOnLessThanSevenDaysOldCache() {
 		let feed = uniqueImageFeed()
 		let fixedCurrentData = Date()
-		let lessThanSevenDaysOldTimestamp = fixedCurrentData.adding(days: -7).adding(seconds: -1)
+		let lessThanSevenDaysOldTimestamp = fixedCurrentData.adding(days: -7).adding(seconds: 1)
 		let (sut, store) = makeSUT(currentDate: { fixedCurrentData } )
 		
 		sut.load { _ in }
