@@ -98,7 +98,7 @@ class CodableFeedStoreTests: XCTestCase {
 		
 		insert((feed, timestamp), to: sut)
 		
-		expect(sut, toRetrieveTwice: .found(feed: feed, timestamp: timestamp))
+		expect(sut, toRetrieve: .found(feed: feed, timestamp: timestamp))
 	}
 	
 	func test_retrieve_hasNoSideEffectsOnNonEmptyCache() {
