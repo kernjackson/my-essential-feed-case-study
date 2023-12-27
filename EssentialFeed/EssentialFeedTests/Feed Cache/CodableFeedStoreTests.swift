@@ -76,7 +76,7 @@ class CodableFeedStoreTests: XCTestCase {
 	override func tearDown() {
 		super.tearDown()
 
-		try? FileManager.default.removeItem(at: testSpecificStoreURL())
+		undoStoreSideEffects()
 	}
 	
 	func test_retrieve_deliversEmptyOnEmptyCache() {
